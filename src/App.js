@@ -28,6 +28,7 @@ value={email}
 onChange={(e) => setEmail(e.target.value)}
 
 />:""} 
+{options}
         </div>
     );
 }
